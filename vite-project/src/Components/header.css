@@ -1,0 +1,14 @@
+.headerLogo{
+    width: 285px;
+}
+.headertxt{
+    font-size: 36px;
+    font-family: Lazurski;
+    color: white;
+    text-transform: uppercase;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
