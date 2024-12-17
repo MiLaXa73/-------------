@@ -13,8 +13,14 @@ const Tour = ()=>{
                 <p className="txtTitle txtTitle_4">время</p>
             </div>
            <div className="tourAccordions">
-            <Accordion date="22.09.2022" city="Москва" place="Москва" time="19:00"></Accordion>
-            <Accordion date="22.09.2022" city="Москва" place="Москва" time="19:00"></Accordion> 
+            <Accordion date="28.02" city="нижний новгород" place="Premio Centre" time="20:00"></Accordion>
+            <Accordion date="01.03" city="казань" place="Werk" time="20:00"></Accordion> 
+            <Accordion date="07.03" city="саратов" place="Клуб Onyx" time="20:00"></Accordion> 
+            <Accordion date="08.03" city="самара" place="Сигнал" time="20:00"></Accordion> 
+            <Accordion date="01.03" city="казань" place="Werk" time="20:00"></Accordion> 
+            <Accordion date="07.03" city="саратов" place="Клуб Onyx" time="20:00"></Accordion> 
+
+
            </div>
         </div>
         </>

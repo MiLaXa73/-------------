@@ -6,10 +6,13 @@
   color: white;
 }
 .txtTitles {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Четыре равных столбца */
+  gap: 10px; /* Отступы между ячейками */
+  text-align: left;
   margin-top: 80px;
 }
-.txtTitle_1 {
+/* .txtTitle_1 {
   margin-left: 30px;
 }
 .txtTitle_2 {
@@ -21,11 +24,20 @@
 .txtTitle_4 {
   margin-left: 288px;
   margin-right: 23px;
-}
+} */
 
+.tourAccordions{
+    margin-top: 65px;
+}
 .tourAccardionItem {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Четыре равных столбца */
+  grid-template-columns: repeat(4, 2fr); /* Четыре равных столбца */
   gap: 10px; /* Отступы между ячейками */
-  text-align: center; /* Текст по центру ячеек */
+  text-align: left; /* Текст по центру ячеек */
+  margin-top: 45px; 
+}
+.txtTitle {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
 }
