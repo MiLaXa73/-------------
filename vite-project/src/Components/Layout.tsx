@@ -13,6 +13,7 @@ const Layout = () => {
   console.log(location.pathname);
   return (
     <>
+    <div className="backgroundI">
       <Routes>
         <Route path="/" element={<Main></Main>} />
         <Route path="/h/*" element={<Header></Header>}>
@@ -23,6 +24,7 @@ const Layout = () => {
         </Route>
       </Routes>
       <Footer></Footer>
+    </div>
     </>
   );
 };

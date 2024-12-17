@@ -10,3 +10,15 @@
   font-family: Rimma_sans;
   src: url(../public/fonts/RIMMA_SANS-BOLD.TTF);
 }
+
+*{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+}

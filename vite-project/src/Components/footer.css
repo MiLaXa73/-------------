@@ -1,0 +1,29 @@
+.footerCategoryTxt{
+    font-family: Kankin;
+    font-size: 16px;
+    color: white;
+    margin-left: 8px;
+}
+.footerCategory{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 60px;
+}
+.footerCategories{
+    display: flex;
+    margin-top: 50px;
+}
+.footerTitle{
+    font-family: Rimma_sans;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-top: 170px;
+}
+.privatePolicy{
+    font-family: Kankin;
+    font-size: 16px;
+    color: white;
+    margin-top: 60px;
+    padding-bottom: 160px;
+}

@@ -1,0 +1,25 @@
+.mainTxt{
+    width: 100%;
+}
+.backgroundI {
+    background-image: url(../../public/img/backgroundMain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainTitle{
+    font-family: Rimma_sans;
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 143px;
+    text-align: center;
+}
+.mainCategories{
+    margin-top: 197px;
+}
+.maincards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
