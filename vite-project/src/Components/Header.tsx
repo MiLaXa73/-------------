@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import headerLogo from "../../public/icon/boulwarDepTxt.png";
 import "./header.css";
 
@@ -7,10 +7,18 @@ const Header = () => {
     <>
       <div className="container">
         <header className="header">
-          <img src={headerLogo} alt="" className="headerLogo" />
-          <p className="headertxt">тур</p>
-          <p className="headertxt">музыка</p>
-          <p className="headertxt">мерч</p>
+          <NavLink to={"/"}>
+            <img src={headerLogo} alt="" className="headerLogo" />
+          </NavLink>
+          <NavLink to={"/h/tour"}>
+            <p className="headertxt">тур</p>
+          </NavLink>
+          <NavLink to={"/h/music"}>
+            <p className="headertxt">музыка</p>
+          </NavLink>
+          <NavLink to={"/h/shop"}>
+            <p className="headertxt">мерч</p>
+          </NavLink>
         </header>
       </div>
       <Outlet></Outlet>
