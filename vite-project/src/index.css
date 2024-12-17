@@ -1,1 +1,12 @@
-
+@font-face {
+  font-family: Kankin;
+  src: url(../public/fonts/kankin.ttf);
+}
+@font-face {
+  font-family: Lazurski;
+  src: url(../public/fonts/ofont.ru_Lazurski.ttf);
+}
+@font-face {
+  font-family: Rimma_sans;
+  src: url(../public/fonts/RIMMA_SANS-BOLD.TTF);
+}
