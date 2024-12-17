@@ -1,0 +1,31 @@
+.txtTitle {
+  font-family: Rimma_sans;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+}
+.txtTitles {
+  display: flex;
+  margin-top: 80px;
+}
+.txtTitle_1 {
+  margin-left: 30px;
+}
+.txtTitle_2 {
+  margin-left: 88px;
+}
+.txtTitle_3 {
+  margin-left: 302px;
+}
+.txtTitle_4 {
+  margin-left: 288px;
+  margin-right: 23px;
+}
+
+.tourAccardionItem {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Четыре равных столбца */
+  gap: 10px; /* Отступы между ячейками */
+  text-align: center; /* Текст по центру ячеек */
+}
